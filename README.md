@@ -4,6 +4,8 @@ Tento repozitář si zkopírujte do svého počítače, bude sloužit jako zákl
 Vytvořte si veřejný repozitář na GitHub a propojte ho s lokálním repozitářem, tím co jste si zkopírovali. 
 Vypracujte **zadání programu**, zkuste v průbehu trackovat změny pomocí **git commit**. Po vypracování programu napište vlastní README dokument, který bude sloužit jako návod pro zprovoznění vašeho programu (zapojení, stažení souborů, upravení konfiguračního souboru, nahrání na RPI pico...), nezapomeňte na soubor .gitignore, jelikož se v programu nacházi **API klíč, který nesmí být zveřejněn!!**, případně ignoruje soubory generované vývojovým prostředím jako například .vscode . 
 Váš výsledek nahrajte do GitHub repozitáře.
+V případě problému s přidáváním vzdáleného repozitáře využijte příkaz **git remote remove origin**.
+
 
 ### Zadání programu
 Program bude zahrnovat práci s API a LCD displejem, konfigurační soubor  bude ukládat v libovolném formátu údaje pro přihlášení k WiFi a API klíč. Spouštěcí soubor pro program bude main.py, program zhotovte pro platformu raspberry pi pico w.
